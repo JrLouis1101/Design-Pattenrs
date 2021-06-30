@@ -26,8 +26,12 @@ namespace TemplateMethod.Classes
 
         public Boolean PossuiItemMaiorQue100Reais(Orcamento orcamento)
         {
-            
-            return orcamento.Equals(
+            foreach(Item item  in orcamento.Itens)
+            {
+                if(item.Valor > 100) return true;   
+                 
+            }
+            return false;
         }
     }
 }
