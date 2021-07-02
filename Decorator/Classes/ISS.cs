@@ -14,8 +14,5 @@ namespace Decorator.Classes
         {
             return orcamento.valor * 0.01 + CalculoDoOutroImposto(orcamento);
         }
-
-   
-
     }
 }
