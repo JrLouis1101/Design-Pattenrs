@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chainOfResponsabilityExample", "chainOfResponsabilityExample\chainOfResponsabilityExample.csproj", "{D3ED4619-E4C6-4E18-B71F-E9AE6C38C0C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chainOfResponsabilityExample", "chainOfResponsabilityExample\chainOfResponsabilityExample.csproj", "{D3ED4619-E4C6-4E18-B71F-E9AE6C38C0C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{CD35EC5D-5C3E-4103-8AC4-D7A71409EC5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{CD35EC5D-5C3E-4103-8AC4-D7A71409EC5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{56BADD54-4741-4B87-92D9-D0BF0D225BE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CD35EC5D-5C3E-4103-8AC4-D7A71409EC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD35EC5D-5C3E-4103-8AC4-D7A71409EC5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD35EC5D-5C3E-4103-8AC4-D7A71409EC5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56BADD54-4741-4B87-92D9-D0BF0D225BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56BADD54-4741-4B87-92D9-D0BF0D225BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56BADD54-4741-4B87-92D9-D0BF0D225BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56BADD54-4741-4B87-92D9-D0BF0D225BE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
