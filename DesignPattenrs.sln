@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State", "State\State.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{0F70579E-1D05-4E90-A8F5-39852C3C91BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{FCC5D059-E85B-404A-8288-456A90AB305A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{0F70579E-1D05-4E90-A8F5-39852C3C91BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F70579E-1D05-4E90-A8F5-39852C3C91BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F70579E-1D05-4E90-A8F5-39852C3C91BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCC5D059-E85B-404A-8288-456A90AB305A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC5D059-E85B-404A-8288-456A90AB305A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC5D059-E85B-404A-8288-456A90AB305A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC5D059-E85B-404A-8288-456A90AB305A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
