@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "TemplateM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{56BADD54-4741-4B87-92D9-D0BF0D225BE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{2FCE16B3-1A0F-42D6-B83B-7B00A9DDDD2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State", "State\State.csproj", "{2FCE16B3-1A0F-42D6-B83B-7B00A9DDDD2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{0F70579E-1D05-4E90-A8F5-39852C3C91BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2FCE16B3-1A0F-42D6-B83B-7B00A9DDDD2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FCE16B3-1A0F-42D6-B83B-7B00A9DDDD2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FCE16B3-1A0F-42D6-B83B-7B00A9DDDD2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F70579E-1D05-4E90-A8F5-39852C3C91BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F70579E-1D05-4E90-A8F5-39852C3C91BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F70579E-1D05-4E90-A8F5-39852C3C91BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F70579E-1D05-4E90-A8F5-39852C3C91BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
